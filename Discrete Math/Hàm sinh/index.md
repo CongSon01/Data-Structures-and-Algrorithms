@@ -25,4 +25,10 @@ Các kí hiệu hay dùng
 ### Định nghĩa
 #### ĐN1: Hàm sinh có dạng a(i)*x**(i)
 [VD: Xác định hệ số của x^15](XacDinhHeSo.ipynb)
-
+[VD: Có bao nhiêu cách chia 24 vật cho 4 người sao cho mỗi người nhận ít nhất 3 vật, nhưng không quá 8 vật>](SoCach.ipynb)
+#### Công thức:
+* (x+1)^n = Sum( binomial(n, i) * x**i, (i, 0, oo))
+* 1 + x + x^2 + .... = 1/(1-x)
+* 1 + c + x^2 + ... + x^n = (1-x^(n+1))/(1-x)
+### Phân hoạch số nguyên
+#### ĐN: Tách n thành tổng các số nguyên dương, không quan tâm thứ tự các số hạng.
